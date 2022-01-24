@@ -5,9 +5,11 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	return <div>
-		<SecondsCo/>
-	</div>;
+	return (
+		<div>
+			<SecondsCo />
+		</div>
+	);
 };
 
 export default Home;
